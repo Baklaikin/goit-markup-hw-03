@@ -1,0 +1,35 @@
+.buttons {
+    color: var(--header-text-color);
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px; 
+    letter-spacing: 0.03em;  
+    border: transparent; 
+    border-radius: 4px;
+}
+
+.buttons:hover,
+.buttons:focus {
+    background-color: var(--button-color);
+    color: var(--header-bg-color);
+}
+
+.portfolio {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-header {
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+}
+
+.card-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}

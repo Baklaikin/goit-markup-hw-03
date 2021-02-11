@@ -1,0 +1,66 @@
+h1{
+    font-weight: 900;
+    letter-spacing: 0.06em;
+}
+
+.advantage {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;  
+}
+
+.hero {
+    width: 1600px;
+    height: auto;
+    background-color: #2F303A;
+}
+
+.hero-header {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: var(--header-bg-color);
+    background-color: #2F303A;
+}
+
+.button {
+    background-color: var(--button-color);
+    color: var(--header-bg-color);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+
+.section-header {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    color: var(--header-text-color);
+}
+
+.personnel {
+    width: 1600px;
+    height: auto;
+    background-color: #F5F4FA;
+}
+
+.personnel-h {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+.personnel-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--main-text-color);
+    letter-spacing: 0.03em;
+  
+}
