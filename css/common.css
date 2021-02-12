@@ -6,8 +6,19 @@
     --footer-text-color: rgba(255, 255, 255, 0.6);
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 img {
@@ -41,7 +52,7 @@ p {
 .container {
     display: flex;
     justify-content: space-between;
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;
@@ -97,6 +108,12 @@ main {
     margin-left: 50px;
 }
 
+.link {
+    display: inline-block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 /* .nav-item:hover,
 .nav-item:focus {
     color: var(--button-color);
@@ -121,11 +138,7 @@ main {
     margin-left: 50px;
 }
 
-.link {
-    display: inline-block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
+
 
 .color  {
     color: var(--main-text-color);
@@ -149,23 +162,43 @@ main {
 }
 
 .f-logo {
-    color: var(--header-bg-color);
+    display: inline-block;
+    margin-top: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
 
+    color: var(--header-bg-color);
+}
+
+.footer-box {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .fcolor {
     color: var(--header-bg-color);
 }
 
-.footer-links>a {
-    color: rgba(255, 255, 255, .6);
+.fcolor> p {
+    margin-top: 20px;
+}
+
+.footer-links {
+    display: inline-block;
+    margin-top: 9px;
+    color: var(--footer-text-color);
  
 }
 
+.bottom {
+    margin-bottom: 60px;
+}
+
 .footer {
-    background-color: #2F303A;
-    width: 1600px;
-    height: 252px;
+ background-color: #2F303A;
 }
 
 .pcolor{
