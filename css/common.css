@@ -114,11 +114,6 @@ main {
     padding-bottom: 32px;
 }
 
-/* .nav-item:hover,
-.nav-item:focus {
-    color: var(--button-color);
-} */
-
 .nav-links a:hover,
 .nav-links a:focus {
     color: var(--button-color);
