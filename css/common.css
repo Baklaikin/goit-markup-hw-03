@@ -20,11 +20,32 @@ ul {
     list-style: none;
     text-decoration: none;
     color: var(--header-text-color);
+    padding: 0;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
     color: var(--header-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 main {
@@ -37,6 +58,8 @@ main {
 }
 
 .header-link   {
+    padding-top: 24px;
+    padding-bottom: 25px;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -53,12 +76,32 @@ main {
     line-height: 31px;
 }
 
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
 .nav-links{ 
+    display: flex;
+
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
 }
+
+.nav-item:first-child {
+    margin-left: 93px;
+}
   
+.nav-item {
+    margin-left: 50px;
+}
+
+/* .nav-item:hover,
+.nav-item:focus {
+    color: var(--button-color);
+} */
+
 .nav-links a:hover,
 .nav-links a:focus {
     color: var(--button-color);
@@ -67,6 +110,25 @@ main {
 .nav-links .current:hover,
 .nav-links .current:focus {
     color: var(--header-text-color)
+}
+
+.contacts-item a:hover,
+.contacts-item a:focus {
+    color: var(--button-color);
+}
+
+.contacts-item:last-child {
+    margin-left: 50px;
+}
+
+.link {
+    display: inline-block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.color  {
+    color: var(--main-text-color);
 }
 
 .visually-hidden {
@@ -109,6 +171,8 @@ main {
 .pcolor{
     color: var(--main-text-color);
 }
+
+
 
 .advantage-p  {
     font-size: 14px;
