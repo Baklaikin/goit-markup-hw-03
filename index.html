@@ -16,7 +16,7 @@
     <body>
         <header class="header">
             
-            <div class="container">
+            <div class="container flex">
                 <nav class="navigation">
                     <!-- Логотип -->
                     <a href="/" class="header-link"><span class="logo">Web</span>Studio</a>
@@ -30,7 +30,7 @@
             
 
                 <!-- Телефон и почта -->
-                <ul class="nav-links">
+                <ul class="contacts-links">
                     <li class="contacts-item"><a href="mailto:info@devstudio.com" class="link color">info@devstudio.com</a></li>
                     <li class="contacts-item"><a href="tel:+380961111111" class="link color">+38 096 111 11 11</a></li>
                 </ul>
@@ -38,69 +38,82 @@
         </header>
         <!-- Блок Герой -->
        <main>
-        <section class="hero">
-            <h1 class="hero-header">
-                Эффективные решения для вашего бизнеса
-            </h1>
-            <a href="" class="button">Заказать услугу</a>
-        </section>
+            <section class="hero">
+                <div class="container">
+                    <h1 class="hero-header">
+                        Эффективные решения для вашего бизнеса
+                    </h1>
+                    <a href="" class="button">Заказать услугу</a>
+                </div>
+            </section>
+        
         <!-- Преимущества и портфолио-->
         <section>
             <h2 class="visually-hidden">Преимущества</h2>
-            <ul>
-                <li>
-                    <h3 class="advantage">Внимание к деталям</h3>
-                    <p class="advantage-p pcolor">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
-                <li>
-                    <h3 class="advantage">Пунктуальность</h3>
-                    <p class="advantage-p pcolor">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                </li>
-                <li>
-                    <h3 class="advantage">Планирование</h3>
-                    <p class="advantage-p pcolor">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </li>
-                <li>
-                    <h3 class="advantage">Современные технологии</h3>
-                    <p class="advantage-p pcolor">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="advantage-list">
+                    <li class="advantage-item">
+                        <h3 class="advantage">Внимание к деталям</h3>
+                        <p class="advantage-p pcolor">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    </li>
+                    <li class="advantage-item">
+                        <h3 class="advantage">Пунктуальность</h3>
+                        <p class="advantage-p pcolor">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    </li>
+                    <li class="advantage-item">
+                        <h3 class="advantage">Планирование</h3>
+                        <p class="advantage-p pcolor">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    </li>
+                    <li class="advantage-item">
+                        <h3 class="advantage">Современные технологии</h3>
+                        <p class="advantage-p pcolor">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
+           </div>
+           <div class="container">
             <h2 class="section-header">
                 Чем мы занимаемся
             </h2>
-            <ul>
-                <li><a href=""><img src="./images/keyboard.jpg" alt="набор текста на клавиатуре" width="370"></a></li>
-                <li><a href=""><img src="./images/mobile.jpg" alt="держит мобильник в руке" width="370"></a></li>
-                <li><a href=""><img src="./images/tablet.jpg" alt="держит планшет" width="370"></a></li>
-            </ul>
+            
+                <ul class="pictures">
+                    <li class="items"><a href=""><img src="./images/keyboard.jpg" alt="набор текста на клавиатуре" width="370"></a></li>
+                    <li class="items"><a href=""><img src="./images/mobile.jpg" alt="держит мобильник в руке" width="370"></a></li>
+                    <li class="items"><a href=""><img src="./images/tablet.jpg" alt="держит планшет" width="370"></a></li>
+                </ul>
+            </div>
         </section>
         <!-- Команда -->
         <section class="personnel">
-            <h2 class="section-header">Наша команда</h2>
-            <ul>
-                <li>
-                    <img src="./images/glassman.jpg" alt="мужчина в очках улыбается" width="270">
-                    <h3 class="personnel-h">Игорь Демьяненко</h3>
-                    <p class="personnel-p">Product Designer</p>
-                </li>
-                <li>
-                    <img src="./images/glassgirl.jpg" alt="девушка в очках улыбается" width="270">
-                    <h3 class="personnel-h">Ольга Репина</h3>
-                    <p class="personnel-p">Frontend Developer</p>
-                </li>
-                    
-                <li>
-                    <img src="./images/noglasses.jpg" alt="парень улыбается" width="270">
-                    <h3 class="personnel-h">Николай Тарасов</h3>
-                    <p class="personnel-p">Marketing</p>
-                </li>
+            <div class="container">
+                <h2 class="section-header">Наша команда</h2>
                 
-                <li>
-                    <img src="./images/blacktshirt.jpg" alt="парень в черной футболке улыбается" width="270">
-                    <h3 class="personnel-h">Михаил Ермаков</h3>
-                    <p class="personnel-p">UI Designer</p>
-                </li>
-            </ul>
+                <ul class="flex">
+                    <li class="card-name">
+                        <img src="./images/glassman.jpg" alt="мужчина в очках улыбается" width="270">
+                    
+                        <h3 class="personnel-h">Игорь Демьяненко</h3>
+                        <p class="personnel-p">Product Designer</p>
+                    
+                    </li>
+                    <li class="card-name">
+                        <img src="./images/glassgirl.jpg" alt="девушка в очках улыбается" width="270">
+                        <h3 class="personnel-h">Ольга Репина</h3>
+                        <p class="personnel-p">Frontend Developer</p>
+                    </li>
+                    
+                    <li class="card-name">
+                        <img src="./images/noglasses.jpg" alt="парень улыбается" width="270">
+                        <h3 class="personnel-h">Николай Тарасов</h3>
+                        <p class="personnel-p">Marketing</p>
+                    </li>
+                
+                    <li class="card-name">
+                        <img src="./images/blacktshirt.jpg" alt="парень в черной футболке улыбается" width="270">
+                        <h3 class="personnel-h">Михаил Ермаков</h3>
+                        <p class="personnel-p">UI Designer</p>
+                    </li>
+                </ul>
+            </div>
         </section>
        </main>
         <footer class="footer">

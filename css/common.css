@@ -5,7 +5,7 @@
     --button-color: #2196F3;
     --footer-text-color: rgba(255, 255, 255, 0.6);
 }
-
+/* Общие настройки */
 html {
     box-sizing: border-box;
 }
@@ -49,21 +49,29 @@ p {
     padding: 0;
 }
 
+/* Контейнер */
 .container {
-    display: flex;
-    justify-content: space-between;
     width: 1200px;
+    height: auto;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
 }
 
+.flex {
+    display: flex;
+}
+
 main {
     font-weight: 400;
 }
 
+/* Хедер */
 .header{
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--header-bg-color);
     font-weight: 500;
 }
@@ -92,7 +100,11 @@ main {
     align-items: center;
 }
 
-.nav-links{ 
+ {
+    margin-left: 322px;
+}
+
+.nav-links { 
     display: flex;
 
     font-size: 14px;
@@ -109,7 +121,7 @@ main {
 }
 
 .link {
-    display: inline-block;
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -124,6 +136,15 @@ main {
     color: var(--header-text-color)
 }
 
+.contacts-links {
+    display: flex;
+    margin-left: auto;
+
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
 .contacts-item a:hover,
 .contacts-item a:focus {
     color: var(--button-color);
@@ -132,8 +153,6 @@ main {
 .contacts-item:last-child {
     margin-left: 50px;
 }
-
-
 
 .color  {
     color: var(--main-text-color);
@@ -152,10 +171,12 @@ main {
     overflow: hidden;
 }
 
+/* Текущая страница */
 .current {
     color: var(--button-color)
 }
 
+/* Футер */
 .f-logo {
     display: inline-block;
     margin-top: 60px;
@@ -196,15 +217,15 @@ main {
  background-color: #2F303A;
 }
 
+
 .pcolor{
     color: var(--main-text-color);
 }
-
-
 
 .advantage-p  {
     font-size: 14px;
     line-height: 24px;
     font-style: normal;
     letter-spacing: 0.03em;
+    
 }

@@ -3,21 +3,20 @@ h1{
     letter-spacing: 0.06em;
 }
 
-.advantage {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;  
-}
-
 .hero {
     width: 1600px;
     height: auto;
+    margin-right: auto;
+    margin-left: auto;
     background-color: #2F303A;
+    text-align: center;
 }
 
 .hero-header {
+    margin-left: 252px;
+    margin-right: 252px;
+    padding-top: 200px;
+
     text-transform: uppercase;
     font-weight: 900;
     font-size: 44px;
@@ -26,7 +25,14 @@ h1{
     background-color: #2F303A;
 }
 
+/* Кнопка */
 .button {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    padding: 10px 32px;
+    border-radius: 4px;
+
     background-color: var(--button-color);
     color: var(--header-bg-color);
     font-size: 16px;
@@ -36,16 +42,82 @@ h1{
 }
 
 .section-header {
+    margin-bottom: 50px;
+    padding-top: 94px;
+
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.03em;
     font-weight: 700;
     color: var(--header-text-color);
+    text-align: center;
 }
 
+.pictures {
+    display: flex;
+    padding-bottom: 94px;
+}
+
+.pictures> .items:not(:last-child) {
+    margin-right: 30px;
+}
+
+.card-name {
+    display: block;
+    width: calc((100%-90)/4);
+    text-align: center;
+}
+
+.card-name:not(:last-child) {
+    margin-right: 30px;
+}
+
+.card-name>h3 {
+    margin-top: 30px;
+}
+
+.card-name>p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.personnel ul {
+    padding-bottom: 94px;
+}
+/* Преимущества */
+.advantage {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
+    text-align: left; 
+}
+
+.advantage-list {
+    display: flex;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+
+}
+
+.advantage-item {
+    width: calc((100%-90)/4);
+}
+
+.advantage-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+/* Персоннал */
 .personnel {
     width: 1600px;
     height: auto;
+    margin-right: auto;
+    margin-left: auto;
     background-color: #F5F4FA;
 }
 
@@ -54,6 +126,7 @@ h1{
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 
 .personnel-p {
@@ -64,3 +137,4 @@ h1{
     letter-spacing: 0.03em;
   
 }
+
