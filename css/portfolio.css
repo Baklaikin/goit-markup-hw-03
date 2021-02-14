@@ -1,4 +1,6 @@
 .buttons {
+    padding: 6px 22px;
+
     color: var(--header-text-color);
     background-color: #F5F4FA;
     font-weight: 500;
@@ -7,6 +9,17 @@
     letter-spacing: 0.03em;  
     border: transparent; 
     border-radius: 4px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.btn>.item+.item {
+    margin-left: 8px;
 }
 
 .buttons:hover,
@@ -20,6 +33,9 @@
 }
 
 .card-header {
+    margin: 20px 24px 0;
+
+    text-align: left;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
@@ -27,9 +43,49 @@
 }
 
 .card-p {
+    margin: 4px 24px 20px;
+
+    text-align: left;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+}
+
+.container .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc((100%-60px)/3);
+    margin-left: -30px;
+    /* margin-top: -30px;   */
+}
+
+.grid>li {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.grid>li:nth-child(-n+3) {
+    margin-top: 0;
+}
+
+
+
+.grid>.card-grid {
+    background-color: #fff;
+}
+
+.card-grid>.card-container {
+    /* width: 370px; */
+}
+
+.card-container {
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+
 }

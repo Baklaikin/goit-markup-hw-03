@@ -66,6 +66,10 @@ h1{
     display: block;
     width: calc((100%-90)/4);
     text-align: center;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: ;
 }
 
 .card-name:not(:last-child) {

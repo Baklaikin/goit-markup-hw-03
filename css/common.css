@@ -57,6 +57,7 @@ p {
     padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
+    /* background-color: red; */
 }
 
 .flex {
@@ -98,10 +99,6 @@ main {
 .navigation {
     display: flex;
     align-items: center;
-}
-
- {
-    margin-left: 322px;
 }
 
 .nav-links { 
@@ -158,6 +155,7 @@ main {
     color: var(--main-text-color);
 }
 
+/* Скрытый заголовок */
 .visually-hidden {
     position: absolute;
     width: 1px;
