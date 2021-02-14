@@ -30,6 +30,9 @@
 
 .portfolio {
     font-family: 'Roboto', sans-serif;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card-header {
@@ -58,7 +61,6 @@
     flex-wrap: wrap;
     flex-basis: calc((100%-60px)/3);
     margin-left: -30px;
-    /* margin-top: -30px;   */
 }
 
 .grid>li {
@@ -70,14 +72,8 @@
     margin-top: 0;
 }
 
-
-
 .grid>.card-grid {
     background-color: #fff;
-}
-
-.card-grid>.card-container {
-    /* width: 370px; */
 }
 
 .card-container {
@@ -87,5 +83,4 @@
     border-right: 1px solid #eee;
     border-bottom: 1px solid #eee;
     overflow: hidden;
-
 }

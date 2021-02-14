@@ -13,8 +13,7 @@ h1{
 }
 
 .hero-header {
-    margin-left: 252px;
-    margin-right: 252px;
+    text-align: center;
     padding-top: 200px;
 
     text-transform: uppercase;
@@ -64,12 +63,11 @@ h1{
 
 .card-name {
     display: block;
-    width: calc((100%-90)/4);
+    width: calc((100%-90px)/4);
     text-align: center;
     background-color: #fff;
     border-radius: 6px;
     overflow: hidden;
-    box-shadow: ;
 }
 
 .card-name:not(:last-child) {
@@ -88,7 +86,14 @@ h1{
 .personnel ul {
     padding-bottom: 94px;
 }
+
 /* Преимущества */
+.advantages {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .advantage {
     margin-bottom: 10px;
 
