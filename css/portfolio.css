@@ -26,11 +26,12 @@
 .buttons:focus {
     background-color: var(--button-color);
     color: var(--header-bg-color);
+    outline: none;
 }
 
 .portfolio {
+    max-width: 1600px;
     font-family: 'Roboto', sans-serif;
-    width: 1600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -64,8 +65,11 @@
 }
 
 .grid>li {
-    margin-left: 30px;
-    margin-top: 30px;
+    /* margin-left: 30px; */
+    /* margin-top: 30px; */
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 30px;
 }
 
 .grid>li:nth-child(-n+3) {

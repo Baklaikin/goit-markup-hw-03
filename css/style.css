@@ -4,7 +4,7 @@ h1{
 }
 
 .hero {
-    width: 1600px;
+    max-width: 1600px;
     height: auto;
     margin-right: auto;
     margin-left: auto;
@@ -40,61 +40,15 @@ h1{
     letter-spacing: 0.06em;
 }
 
-.section-header {
-    margin-bottom: 50px;
-    padding-top: 94px;
-
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.03em;
-    font-weight: 700;
-    color: var(--header-text-color);
-    text-align: center;
-}
-
-.pictures {
-    display: flex;
-    padding-bottom: 94px;
-}
-
-.pictures> .items:not(:last-child) {
-    margin-right: 30px;
-}
-
-.card-name {
-    display: block;
-    width: calc((100%-90px)/4);
-    text-align: center;
-    background-color: #fff;
-    border-radius: 6px;
-    overflow: hidden;
-}
-
-.card-name:not(:last-child) {
-    margin-right: 30px;
-}
-
-.card-name>h3 {
-    margin-top: 30px;
-}
-
-.card-name>p {
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
-.personnel ul {
-    padding-bottom: 94px;
-}
-
 /* Преимущества */
 .advantages {
-    width: 1600px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .advantage {
+    
     margin-bottom: 10px;
 
     font-weight: 700;
@@ -121,9 +75,57 @@ h1{
     margin-right: 30px;
 }
 
+/* Чем мы занимаемся */
+.section-header {
+    margin-bottom: 50px;
+    padding-top: 94px;
+
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    color: var(--header-text-color);
+    text-align: center;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 94px;
+}
+
+/* Команда */
+.card-name {
+    display: block;
+    width: calc((100%-90px)/4);
+    text-align: center;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.card-name:not(:last-child) {
+    margin-right: 30px;
+}
+
+.card-name>h3 {
+    margin-top: 30px;
+}
+
+.card-name>p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.personnel ul {
+    padding-bottom: 94px;
+}
+
+
+
 /* Персоннал */
 .personnel {
-    width: 1600px;
+    max-width: 1600px;
     height: auto;
     margin-right: auto;
     margin-left: auto;

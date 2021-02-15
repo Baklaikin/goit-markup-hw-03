@@ -52,7 +52,8 @@ p {
 
 /* Контейнер */
 .container {
-    width: 1200px;
+    max-width: 1200px;
+    flex-wrap: wrap;
     height: auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -62,6 +63,7 @@ p {
 
 .flex {
     display: flex;
+    /* flex-wrap: wrap; */
 }
 
 main {
@@ -69,7 +71,7 @@ main {
 }
 
 /* Хедер */
-.header{
+.header {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
@@ -177,7 +179,7 @@ main {
 
 /* Футер */
 .footer {
-    width: 1600px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
     background-color: #2F303A;
